@@ -1,0 +1,11 @@
+{
+  "baseUrl": "http://eaapp.somee.com/",
+  "env": {
+    "username": "admin"
+  },
+  "screenshotsFolder": "cypress/reports",
+  "reporter": "cypress-multi-reporters",
+  "reporterOptions": {
+    "configFile": "reporterOptions.json"
+  }
+}
