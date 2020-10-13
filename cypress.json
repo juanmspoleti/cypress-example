@@ -4,9 +4,10 @@
     "username": "admin"
   },
   "screenshotsFolder": "cypress/reports",
-  "reporter": "cypress-multi-reporters",
-  "reporterOptions": {
-    "configFile": "reporterOptions.json"
-  },
-  "projectId": "n2ixwn"
+  "reporter": "cypress-mochawesome-reporter",
+  "projectId": "n2ixwn",
+  "retries": {
+    "runMode": 0,
+    "openMode": 2
+  }
 }

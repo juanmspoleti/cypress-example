@@ -27,7 +27,7 @@ module.exports = (on, config) => {
       return args;
     }
     if (browser.name === "electron") {
-      args["fullscreen"] = false;
+      //args["fullscreen"] = false;
       return args;
     }
   });

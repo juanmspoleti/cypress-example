@@ -4,5 +4,5 @@ node_modules
 cypress/videos
 cypress/screenshots
 cypress/reports
-mochareports
+cypress/results
 .vscode
